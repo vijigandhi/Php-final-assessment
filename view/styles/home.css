@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+h2 {
+    margin-top: 0;
+}
+.post {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.pagination {
+    margin-top: 20px;
+}
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+}
+.pagination a.active {
+    font-weight: bold;
+    color: #000;
+}
